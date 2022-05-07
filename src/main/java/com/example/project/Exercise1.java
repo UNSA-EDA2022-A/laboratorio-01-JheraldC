@@ -1,6 +1,6 @@
 package com.example.project;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Exercise1 {
 
