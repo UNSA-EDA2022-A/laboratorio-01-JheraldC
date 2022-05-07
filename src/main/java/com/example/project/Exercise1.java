@@ -37,8 +37,6 @@ public class Exercise1 {
 		} else {
 			return "El numero proporcionado no esta en base Gabriel.";
 		}
-		
-		
 	}
 	
 	public ArrayList<Integer> separarDigitos(int num){
@@ -49,8 +47,6 @@ public class Exercise1 {
 		for (int i = 0; i < num_string.length(); i++) {
 			digitos.add(i, num_string.charAt(i) - '0');
 		}
-		
-		return digitos;
-		
+		return digitos;		
 	}
 }
